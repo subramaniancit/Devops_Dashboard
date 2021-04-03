@@ -1,3 +1,12 @@
 <div class="maincontainer">
-    <router-outlet></router-outlet>
+    <mat-toolbar>
+        <button mat-icon-button routerLink="" class="example-icon" aria-label="home">
+            <mat-icon>home</mat-icon>
+        </button>
+        <span style="padding-left: 1rem;">Dev Ops</span>
+    </mat-toolbar>
+    <div class="routersection" style="padding-top:2rem;">
+        <router-outlet></router-outlet>
+    </div>
+
 </div>
