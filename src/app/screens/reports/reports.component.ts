@@ -19,9 +19,9 @@ export class ReportsComponent implements OnInit {
     const myChart = new Chart(context, {
       type: 'bar',
       data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['01 Apr 2021', '02 Apr 2021', '03 Apr 2021', '04 Apr 2021', '05 Apr 2021', '06 Apr 2021'],
         datasets: [{
-          label: '# of Votes',
+          label: '# of Incidents',
           data: [12, 19, 3, 5, 2, 3],
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',

@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'reports',
     loadChildren: () => import('./screens/reports/reports.module').then(m => m.ReportsModule)
+  },
+  {
+    path: 'trace',
+    loadChildren: () => import('./screens/trace/trace.module').then(m => m.TraceModule)
   }
 ];
 
