@@ -12,7 +12,7 @@ $xv-secondary-green: rgba(133, 177, 58, 1);
 $xv-secondary-ltgreen: #A9C875;
 $xv-secondary-dkgreen: rgba(106, 141, 46, 1);
 $xv-secondary-blue: rgba(47, 155, 167, 1);
-$xv-secondary-ltblue: #6DB9C1;
+$xv-secondary-ltblue: #003b70;
 $xv-secondary-dkblue: rgba(37, 124, 133, 1);
 $xv-secondary-yellow: rgba(227, 169, 40, 1);
 $xv-secondary-ltyellow: #EBC268;
@@ -156,6 +156,12 @@ $xv-secondary-dkred: rgba(163, 44, 61, 1);
 	font-size: 14px;
 	top: 25px;
 	z-index: 1;
+	color:#FFF;
+	a {
+		color:#FFF;
+		text-decoration: none;
+		cursor: pointer;
+	}
 }
 
 /* Metric */
